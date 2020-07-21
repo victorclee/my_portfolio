@@ -53,7 +53,7 @@ GEM
     crass (1.0.4)
     erubi (1.7.1)
     execjs (2.7.0)
-    ffi (1.9.23)
+    ffi (1.13.1)
     friendly_id (5.1.0)
       activerecord (>= 4.0.0)
     globalid (0.4.1)
