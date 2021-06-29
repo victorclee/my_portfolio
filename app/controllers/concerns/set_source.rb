@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 module SetSource
   extend ActiveSupport::Concern
 
-  included do |variable|
+  included do |_variable|
     before_action :set_source
   end
 
@@ -9,5 +11,3 @@ module SetSource
     session[:source] = params[:q] if params[:q]
   end
 end
-
-

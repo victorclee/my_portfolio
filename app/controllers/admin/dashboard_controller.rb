@@ -1,10 +1,11 @@
-class Admin::DashboardController < ApplicationController
-  def main
-  end
+# frozen_string_literal: true
 
-  def user
-  end
+module Admin
+  class DashboardController < ApplicationController
+    def main; end
 
-  def blog
+    def user; end
+
+    def blog; end
   end
 end
